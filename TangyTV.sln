@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TangyTV", "TangyTV.csproj", "{A7871E5B-16D3-EBC6-F2CA-6D70792C3471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7871E5B-16D3-EBC6-F2CA-6D70792C3471}.Debug|x64.ActiveCfg = Debug|x64
+		{A7871E5B-16D3-EBC6-F2CA-6D70792C3471}.Debug|x64.Build.0 = Debug|x64
+		{A7871E5B-16D3-EBC6-F2CA-6D70792C3471}.Release|x64.ActiveCfg = Release|x64
+		{A7871E5B-16D3-EBC6-F2CA-6D70792C3471}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95D22082-867B-44B5-A177-965CDF584411}
+	EndGlobalSection
+EndGlobal

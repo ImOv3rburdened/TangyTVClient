@@ -1,0 +1,34 @@
+﻿<Project Sdk="Dalamud.NET.Sdk/14.0.1">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Version>0.0.1.0</Version>
+		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+		<GenerateDependencyFile>false</GenerateDependencyFile>
+
+		<DalamudPluginName>TangyTV</DalamudPluginName>
+		<DalamudPluginInternalName>TangyTV</DalamudPluginInternalName>
+		<DalamudPluginAssemblyName>TangyTV</DalamudPluginAssemblyName>
+		<DalamudPluginAuthor>NotTangy</DalamudPluginAuthor>
+		<DalamudPluginDescription>World-anchored synced watch overlay.</DalamudPluginDescription>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="TangyTV.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="mpv\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+	</ItemGroup>
+
+</Project>

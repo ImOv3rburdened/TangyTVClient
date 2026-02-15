@@ -1,0 +1,10 @@
+{
+  "Author": "NotTangy",
+  "Name": "TangyTV",
+  "Punchline": "A synced watch overlay pinned to a world anchor.",
+  "Description": "Host pushes a URL. Viewers opt in. Overlay pins to world anchor. Browser playback + websocket sync.",
+  "InternalName": "TangyTV",
+  "RepoUrl": "",
+  "ApplicableVersion": "any",
+  "Tags": [ "overlay", "sync", "watch", "housing" ]
+}

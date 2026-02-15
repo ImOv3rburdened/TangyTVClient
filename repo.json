@@ -1,0 +1,20 @@
+[
+  {
+    "Author": "NotTangy",
+    "Name": "TangyTV",
+    "Punchline": "A synced watch overlay pinned to a world anchor.",
+    "Description": "Host pushes a URL. Viewers opt in. Overlay pins to world anchor. Browser playback + websocket sync.",
+    "InternalName": "TangyTV",
+    "RepoUrl": "https://github.com/ImOv3rburdened/TangyTVClient",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "AssemblyVersion": "0.0.1.0",
+    "TestingAssemblyVersion": null,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/ImOv3rburdened/TangyTVClient/releases/download/v0.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/ImOv3rburdened/TangyTVClient/releases/download/v0.0.1/latest.zip",
+    "DownloadLinkTesting": null,
+    "LastUpdate": "0"
+  }
+]
